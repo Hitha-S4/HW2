@@ -1,40 +1,25 @@
 # CS 520 Homework 2: Mutation-Testing Artifacts
 
-## Identity and collaboration
 
-- **Student:** Hitha Srinivas
-- **Collaborators:** Worked alone.
-- **AI tools:** Copilot SDK in VS Code was used to understand the homework and
-  research paper, troubleshoot Defects4J/EvoSuite/Major setup, write the
-  repeatable shell scripts, and verify artifact counts and output files. The
-  generated artifacts were executed and checked locally with Defects4J,
-  EvoSuite, and Major.
+- **Name:** Hitha Srinivas
+- **Collaborators:** Worked alone
+- **AI tools:** Copilot to understand code, setup and documentation.
 
 ## Purpose of mutation testing
 
-Mutation testing creates many program versions containing small artificial
-faults called mutants. A test kills a mutant when it detects the mutant's
-changed behavior. The mutation score, calculated from killed mutants divided
-by considered mutants, is a proxy for test-suite effectiveness. It helps
-evaluate tests when real faults are difficult to enumerate. Mutation testing
-is not a guarantee: a mutant is only an approximation of a real fault, and
-some real faults may not be represented by the chosen operators.
+The purpose of mutation testing is to evaluate and improve the effectiveness of test suites by injecting small, artificial faults (called mutants) to a program. A test kills a mutant when it detects this changed behavior. The mutation score that is calculated, ie
+
+```mutation score = killed mutants / considered mutant```
+
+, serves as a proxy for test quality which helps evaluate tests when real faults are difficult to enumerate. But, it is not a guarantee. Mutants are only approximations of real faults, which means that some real world bugs may not be represented by the selected operators. 
 
 ## Coupling effect
+The coupling effect is the empirical assumption that tests able to detect representative simple faults, like the ones mutation operators create, will also detect more complex real faults coupled to them. Mutation analysis relies on this relationship when it uses mutant detection as an evidence of test quality. If the coupling effect holds true, developers do not need to waste computing power simulating complex bugs. They can just write comprehensive tests enough to catch all simple mutants, and automatically build a robust defense that will catch complex, real world software defects.The coupling effect is not universal because some real faults require a stronger or different operator, or dont have a suitable mutant representation. Therefore, a high mutation score is useful evidence but it is not a proof that every real defect will be detected.
 
-The coupling effect is the empirical assumption that tests able to detect
-representative simple faults, such as mutation operators create, will also
-detect more complex real faults coupled to them. Mutation analysis relies on
-this relationship when it uses mutant detection as evidence of test quality.
-The coupling effect is not universal: some real faults require a stronger or
-different operator, or have no suitable mutant representation. Therefore a
-high mutation score is useful evidence, not proof that every real defect will
-be detected.
 
 ## Selected project and defects
 
-The selected project is **Apache Commons CLI (`Cli`)**, which is not one of
-the paper's projects (`Chart`, `Closure`, `Math`, `Time`, or `Lang`).
+The selected project is **Apache Commons CLI (`Cli`)** 
 
 | Defect | Bug report | Fixed revision | Modified class | EvoSuite seed range |
 |---|---|---|---|---|
@@ -69,7 +54,9 @@ The defect is in `CommandLine`: the CLI-13 regression test requires an option
 argument to be retrievable through both its short name (`d`) and long name
 (`debug`), and requires both names to be recognized. The fix stores option
 objects and resolves either name consistently, adding the corresponding option
-equality/hash behavior. **Category:** no suitable operator or inherent
+equality/hash behavior. 
+
+**Category:** no suitable operator or inherent
 limitation, because the fault is an API/state-semantics change rather than a
 simple arithmetic, logical, relational, constant, or statement transformation.
 
@@ -79,6 +66,7 @@ The defect is in `PosixParser`: when the `-t` option expects an argument,
 `-something` must be accepted as that argument instead of being split and
 reported as an unrecognized option. The fix preserves the complete token as
 the argument and stops splitting it into short-option characters.
+
 **Category:** mutation operator needs strengthening, because the behavior
 depends on context-sensitive parsing and control flow rather than an ordinary
 local operator replacement.
@@ -87,9 +75,11 @@ local operator replacement.
 
 The defect is in `TypeHandler` and affects conversion of a numeric option
 value; the regression test checks conversion of the number `4.5`. The fix
-corrects the numeric type handling/conversion path. **Category:** no suitable
+corrects the numeric type handling/conversion path. 
+
+**Category:** no suitable
 operator or inherent limitation. The fault concerns conversion behavior and
-numeric semantics rather than a local mutation of an operator, literal, or
+numeric semantics rather than a local mutation of an operator, literal or
 statement.
 
 ### `Cli-4` (`CLI-1`)
@@ -97,7 +87,9 @@ statement.
 The defect is in `Parser` and produces incomplete error messages for missing
 required options: the expected messages include `Missing required option(s):`
 but the faulty output omits that prefix. The fix restores the required-option
-message construction. **Category:** mutation operator needs strengthening.
+message construction. 
+
+**Category:** mutation operator needs strengthening.
 The fault is in string construction and reporting logic; the default operators
 do not directly model the relevant message-building change.
 
@@ -106,7 +98,9 @@ do not directly model the relevant message-building change.
 The defect is in `Util`: the CLI-133 regression test calls `hasOption(null)`,
 which reaches `stripLeadingHyphens(null)` and causes a `NullPointerException`
 instead of returning false. The fix adds a null guard before stripping
-hyphens. **Category:** mutation operator needs strengthening, because this is
+hyphens. 
+
+**Category:** mutation operator needs strengthening, because this is
 a defensive precondition/null-handling change not reliably represented by the
 default local mutation operators.
 
@@ -120,7 +114,7 @@ default local mutation operators.
 - Time zone: `America/Los_Angeles`
 
 The Java 11 `JAVA_HOME`, Defects4J `D4J`, and user Perl `PERL5LIB` settings are
-configured in both experiment scripts. The fixed-version test suites for all
+configured in both experiment scripts. The fixed version test suites for all
 five selected defects compiled and passed before suite generation.
 
 ## Reproduction commands
@@ -188,9 +182,7 @@ bug-fix-modified class list.
 
 ## Artifact layout and verification
 
-The workspace uses an `artifacts/` directory while the submitted ZIP places
-the five defect directories directly at its root, as required by the
-assignment:
+
 
 ```text
 README.md
@@ -207,7 +199,7 @@ Cli-5/
 The final inventory is:
 
 - 5 defects
-- 20 repaired EvoSuite suites per defect
+- 20 repaired Evosuite suites per defect
 - 100 suites total
 - 200 Java source files total
 - 100 Major mutant logs
