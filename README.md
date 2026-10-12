@@ -65,21 +65,23 @@ no suitable operator/inherent limitation.
 
 ### `Cli-1` (`CLI-13`)
 
-The defect is in `CommandLine` and is exposed by the CLI-13 regression test.
-The fixed revision changes command-line option state handling so the observed
-option/value behavior is correct. **Category:** no suitable operator or
-inherent limitation. The defect is an API/state-semantics change rather than
-one of the simple arithmetic, logical, relational, constant, or statement
-deletion transformations used here.
+The defect is in `CommandLine`: the CLI-13 regression test requires an option
+argument to be retrievable through both its short name (`d`) and long name
+(`debug`), and requires both names to be recognized. The fix stores option
+objects and resolves either name consistently, adding the corresponding option
+equality/hash behavior. **Category:** no suitable operator or inherent
+limitation, because the fault is an API/state-semantics change rather than a
+simple arithmetic, logical, relational, constant, or statement transformation.
 
 ### `Cli-2` (`CLI-51`)
 
-The defect is in `PosixParser` and causes a valid short option such as `-o` to
-be treated as unrecognized. The fix changes POSIX option parsing so the option
-is recognized and processed correctly. **Category:** mutation operator needs
-strengthening. The behavior depends on parsing/control-flow and option
-recognition semantics that are not fully represented by ordinary local
-operator replacement.
+The defect is in `PosixParser`: when the `-t` option expects an argument,
+`-something` must be accepted as that argument instead of being split and
+reported as an unrecognized option. The fix preserves the complete token as
+the argument and stops splitting it into short-option characters.
+**Category:** mutation operator needs strengthening, because the behavior
+depends on context-sensitive parsing and control flow rather than an ordinary
+local operator replacement.
 
 ### `Cli-3` (`CLI-1`)
 
@@ -101,11 +103,11 @@ do not directly model the relevant message-building change.
 
 ### `Cli-5` (`CLI-133`)
 
-The defect is in `Util` and causes leading-hyphen stripping/order behavior to
-fail with a null-related error in the regression tests. The fix adds the
-appropriate null-safe handling in the utility path. **Category:** mutation
-operator needs strengthening. The relevant behavior is a defensive
-precondition/null-handling change, which is not reliably represented by the
+The defect is in `Util`: the CLI-133 regression test calls `hasOption(null)`,
+which reaches `stripLeadingHyphens(null)` and causes a `NullPointerException`
+instead of returning false. The fix adds a null guard before stripping
+hyphens. **Category:** mutation operator needs strengthening, because this is
+a defensive precondition/null-handling change not reliably represented by the
 default local mutation operators.
 
 ## Environment and versions
