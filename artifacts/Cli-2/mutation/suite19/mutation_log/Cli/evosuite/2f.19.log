@@ -1,0 +1,91 @@
+
+init:
+
+junit-present:
+
+setProxy:
+
+noProxy:
+     [echo] Proxy not used.
+
+get-custom-dep-commons-lang.jar:
+
+get-dep-commons-lang.jar:
+      [get] Getting: file:/Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/lib/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+      [get] To: /tmp/run_mutation.pl_82048_1791776933/2f/target/lib/commons-lang/jars/commons-lang-2.1.jar
+
+get-custom-dep-junit.jar:
+      [get] Getting: file:/Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/lib/junit-4.12.jar
+      [get] To: /tmp/run_mutation.pl_82048_1791776933/2f/target/lib/junit/jars/junit-3.8.1.jar
+
+get-dep-junit.jar:
+
+get-deps:
+
+compile:
+    [javac] /tmp/run_mutation.pl_82048_1791776933/2f/build.xml:72: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+    [mkdir] Created dir: /tmp/run_mutation.pl_82048_1791776933/2f/target/test-classes
+    [javac] /tmp/run_mutation.pl_82048_1791776933/2f/build.xml:141: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 19 source files to /tmp/run_mutation.pl_82048_1791776933/2f/target/test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /tmp/run_mutation.pl_82048_1791776933/2f/src/test/org/apache/commons/cli/OptionBuilderTest.java:43: warning: [deprecation] Float(float) in Float has been deprecated
+    [javac]                                      .withType( new Float( 10 ) )
+    [javac]                                                 ^
+    [javac] /tmp/run_mutation.pl_82048_1791776933/2f/src/test/org/apache/commons/cli/OptionBuilderTest.java:61: warning: [deprecation] Float(float) in Float has been deprecated
+    [javac]                                      .withType( new Float( 10 ) )
+    [javac]                                                 ^
+    [javac] /tmp/run_mutation.pl_82048_1791776933/2f/src/test/org/apache/commons/cli/PatternOptionBuilderTest.java:70: warning: [deprecation] Float(double) in Float has been deprecated
+    [javac]            assertEquals("number flag n", new Float(4.5), line.getOptionObject("n"));
+    [javac]                                          ^
+    [javac] /tmp/run_mutation.pl_82048_1791776933/2f/src/test/org/apache/commons/cli/PatternOptionBuilderTest.java:71: warning: [deprecation] Float(double) in Float has been deprecated
+    [javac]            assertEquals("number flag n", new Float(4.5), line.getOptionObject('n'));
+    [javac]                                          ^
+    [javac] Note: /tmp/run_mutation.pl_82048_1791776933/2f/src/test/org/apache/commons/cli/OptionsTest.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 8 warnings
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 1 ordered test(s)to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 0.39 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Serialize preprocessing results to preprocessing.ser
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 104
+    [junit] MAJOR: Mutants covered:   101 (97.12%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export coverage map to covMap.csv
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 101 mutant(s) and 1 test(s).
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 1/1 - org.apache.commons.cli.PosixParser_ESTest (28ms / 101):
+    [junit] MAJOR: 7034 (53 / 101 / 101) -> AVG-RTPM: 69ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 53 (24-29-0) / 48
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time                 : 7.03 seconds
+    [junit] MAJOR: Mutation score                : 50.96% (52.48%)
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME): 53 (24-29-0)
+    [junit] MAJOR: Mutants live                  : 48
+    [junit] MAJOR: Mutant executions             : 101
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant details to /tmp/run_mutation.pl_82048_1791776933/2f/kill.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Done!
+    [junit] MAJOR: ------------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 8 seconds

@@ -1,0 +1,442 @@
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:43:44  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 1
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263001
+Created test suite archive: Cli-3f-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/1
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:44:17  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:44:33  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 2
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263002
+Created test suite archive: Cli-3f-evosuite.2.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/2
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:45:06  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:45:21  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 3
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263003
+Created test suite archive: Cli-3f-evosuite.3.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/3
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:45:54  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:46:10  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 4
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263004
+Created test suite archive: Cli-3f-evosuite.4.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/4
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:46:43  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:47:00  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 5
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263005
+Created test suite archive: Cli-3f-evosuite.5.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/5
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:47:32  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:47:48  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 6
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263006
+Created test suite archive: Cli-3f-evosuite.6.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/6
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:48:21  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:48:37  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 7
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263007
+Created test suite archive: Cli-3f-evosuite.7.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/7
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:49:10  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:49:25  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 8
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263008
+Created test suite archive: Cli-3f-evosuite.8.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/8
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:49:58  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:50:14  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 9
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263009
+Created test suite archive: Cli-3f-evosuite.9.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/9
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:50:47  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:51:04  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 10
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263010
+Created test suite archive: Cli-3f-evosuite.10.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/10
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:51:37  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:51:56  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 11
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263011
+Created test suite archive: Cli-3f-evosuite.11.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/11
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:52:28  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:52:45  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 12
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263012
+Created test suite archive: Cli-3f-evosuite.12.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/12
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:53:18  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:53:34  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 13
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263013
+Created test suite archive: Cli-3f-evosuite.13.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/13
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:54:07  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:54:23  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 14
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263014
+Created test suite archive: Cli-3f-evosuite.14.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/14
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:54:56  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:55:13  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 15
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263015
+Created test suite archive: Cli-3f-evosuite.15.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/15
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:55:46  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:56:03  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 16
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263016
+Created test suite archive: Cli-3f-evosuite.16.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/16
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:56:36  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:56:52  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 17
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263017
+Created test suite archive: Cli-3f-evosuite.17.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/17
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:57:24  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:57:42  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 18
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263018
+Created test suite archive: Cli-3f-evosuite.18.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/18
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:58:14  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:58:34  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 19
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263019
+Created test suite archive: Cli-3f-evosuite.19.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/19
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:59:06  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:59:21  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 20
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263020
+Created test suite archive: Cli-3f-evosuite.20.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/20
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 19:59:54  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:00:27  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 9
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263109
+Created test suite archive: Cli-3f-evosuite.9.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/9
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:01:00  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:01:18  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 10
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263110
+Created test suite archive: Cli-3f-evosuite.10.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/10
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:01:50  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:02:09  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 14
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263114
+Created test suite archive: Cli-3f-evosuite.14.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/14
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:02:42  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:03:01  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 15
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263115
+Created test suite archive: Cli-3f-evosuite.15.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/15
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:03:34  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:03:50  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 17
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263117
+Created test suite archive: Cli-3f-evosuite.17.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/17
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:04:23  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:04:39  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 18
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263118
+Created test suite archive: Cli-3f-evosuite.18.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/18
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:05:12  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:05:35  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 9
+ -b 120
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263209
+Created test suite archive: Cli-3f-evosuite.9.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/9
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:06:38  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:06:56  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 10
+ -b 120
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263210
+Created test suite archive: Cli-3f-evosuite.10.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/10
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:07:59  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:08:16  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 14
+ -b 120
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263214
+Created test suite archive: Cli-3f-evosuite.14.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/14
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:09:19  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:09:37  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 18
+ -b 120
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263218
+Created test suite archive: Cli-3f-evosuite.18.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/18
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:10:40  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:11:00  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 9
+ -b 180
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263309
+Created test suite archive: Cli-3f-evosuite.9.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/9
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:12:33  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:12:50  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 14
+ -b 180
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263314
+Created test suite archive: Cli-3f-evosuite.14.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/14
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:14:23  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:14:46  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 9
+ -b 240
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263409
+Created test suite archive: Cli-3f-evosuite.9.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/9
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:16:49  ######
+######  Start test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:17:26  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Cli
+ -v 3f
+ -n 9
+ -b 60
+ -c /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/projects/Cli/modified_classes/3.src
+ -s 20263009
+Created test suite archive: Cli-3f-evosuite.9.tar.bz2
+Moved test suite archive to output directory: /Users/hitha/Documents/SEM-1/SE-520/HW2/artifacts/work/Cli-3/generated/Cli/evosuite/9
+######  End test generation  /Users/hitha/Documents/SEM-1/SE-520/HW2/defects4j-master/framework/bin/gen_tests.pl: 2026-10-11 20:17:59  ######
